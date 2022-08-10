@@ -53,9 +53,9 @@ packages:
   device_info_plus:
     dependency: "direct main"
     description:
-      name: device_info_plus
-      url: "https://pub.dartlang.org"
-    source: hosted
+      path: "packages/device_info_plus"
+      relative: true
+    source: path
     version: "4.0.2"
   device_info_plus_linux:
     dependency: transitive
@@ -231,13 +231,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.4.9"
-  unique_identifier:
-    dependency: "direct main"
-    description:
-      name: unique_identifier
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.2.0"
   vector_math:
     dependency: transitive
     description:
